@@ -64,7 +64,10 @@ console.log(sentence);
 // ---- Verwachte uitkomst: "€35,59"
 
 const price = "$35.59";
-
+const vervangin =
+    price.replace("$", "€")
+    price.replace(".", ",")
+console.log(vervangin)
 
 
 
