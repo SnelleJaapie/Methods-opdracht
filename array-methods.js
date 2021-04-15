@@ -41,6 +41,7 @@ console.log(names)
 // ---- Verwachte uitkomst: [ 'Utrecht', 'Amsterdam', 'Maastricht', 'Eindhoven' ]
 
 const cities = ["Utrecht", "Maastricht", "Eindhoven"];
-
+const newCity = cities.splice(1, 0, "Amsterdam")
+console.log(cities)
 
 
