@@ -32,7 +32,8 @@ console.log(brownieIngredients)
 // ---- Verwachte uitkomst: [ 'Piet', 'Jan', 'Henk' ]
 
 const names = ["Henk", "Jan", "Piet"];
-
+const namesReverse = names.reverse()
+console.log(names)
 
 
 /* Opdracht 4: */
