@@ -22,6 +22,16 @@ console.log("Minutes: ", currendayMinutes)
 /* Opdracht 2 */
 // Format het date-object dat je bij de vorige vraag hebt gemaakt naar een leesbare datum
 // ---- Verwachte uitkomst: Tue Apr 06 2021 (afhankelijk van het moment)
-const dutchDate = currentDay2.toDateString();
+const longOptions = {
+    weekday: 'long',
+    year: 'numeric',
+    month: 'long',
+    day: 'numeric',
+};
+
+const englishDate = currentDay2.toDateString();
+console.log(englishDate)
+
+const dutchDate = currentDay2.toLocaleDateString("nl-NL", longOptions)
 
 console.log(dutchDate)
