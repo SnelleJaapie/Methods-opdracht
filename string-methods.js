@@ -45,13 +45,16 @@ console.log(string)
 
 const story = "We vinden de behaalde resultaten werkelijk prachtig. Fantastisch, nietwaar?"
 
-
+const uitwerking1 = story.includes("Fantastisch")
+console.log(uitwerking1)
 
 /* Opdracht 5 */
 // Knip de vraag van bovenstaande tekst (story) af, zodat alleen het eerste gedeelte overblijft en log dit in de terminal.
 // ---- Verwachte uitkomst: "We vinden de behaalde resultaten werkelijk prachtig."
+const endOfSentence = story.indexOf(".");
 
-
+const sentence = story.substring(0, endOfSentence + 1);
+console.log(sentence);
 
 /* Opdracht 6 */
 // Maak van onderstaand bedrag een Nederlands bedrag door het volgende te doen:
