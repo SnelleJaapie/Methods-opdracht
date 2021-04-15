@@ -14,7 +14,8 @@ console.log(cookieIngredients);
 // ---- Verwachte uitkomst: [ 'Hawai', 'Margherita', 'Salami' ]
 
 const pizzas = ["Hawai", "Margherita"];
-
+const newItem = pizzas.push("Chicken kebab")
+console.log(pizzas)
 
 
 /* Opdracht 2: */
