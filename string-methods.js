@@ -13,21 +13,29 @@ console.log(word.length);
 const fruit = "Banaan";
 const vegetable = "Aardappel";
 
-
+console.log(fruit.length > vegetable.length)
 
 /* Opdracht 2 */
 //  Zorg ervoor dat de laatste letter van het woord in fruit en vegetable (hierboven) in de terminal gelogd wordt.
 //  Tip: bedenk 1 manier die voor beide woorden zou werken.
 // ---- Verwachte uitkomst voor fruit: "n"
 // ---- Verwachte uitkomst voor vegetable: "l"
+const lastIndexFruit = fruit.length - 1
+const lastIndexVegetable = vegetable.length - 1
 
+const lastFruit = fruit.substring(lastIndexFruit);
+const lastVegetable = vegetable.substring(lastIndexVegetable);
 
-
+console.log(lastFruit, lastVegetable);
 /* Opdracht 3 */
 //  Haal de spaties aan het begin en eind van onderstaande zin weg en log dit in de terminal
 // ---- Verwachte uitkomst: "De kat krabt de krullen van de trap"
 
 const userInput = "  De kat krabt de krullen van de trap ";
+
+const string = userInput.trim()
+
+console.log(string)
 
 
 
