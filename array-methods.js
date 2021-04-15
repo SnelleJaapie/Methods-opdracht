@@ -24,9 +24,10 @@ console.log(pizzas)
 // ---- Verwachte uitkomst: 'Noten' en [ 'Eieren', 'Bloem', 'Cacao', 'Chocoladestukjes', 'Bakpoeder' ]
 
 const brownieIngredients = ["Noten", "Eieren", "Bloem", "Cacao", "Chocoladestukjes", "Bakpoeder"];
+const itemRemove = brownieIngredients.shift()
+console.log(brownieIngredients)
 
-
-/* Opdracht 3: */
+//* Opdracht 3: */
 // Draai de volgorde van onderstaande array met namen om en log de gehele array in de terminal om te kijken is het gelukt is
 // ---- Verwachte uitkomst: [ 'Piet', 'Jan', 'Henk' ]
 
